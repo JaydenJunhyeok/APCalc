@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CurveExplain</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <img src="mcq/CurveSketchingMCQ1.png" alt="Curve Sketching" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    
+    <img src="mcq/CurveSketchingMCQ2.png" alt="Curve Sketching" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+
+    
+    
+    
+    <div class="bottom-container">
+        <button id="backButton" class="small-grey-button">Back</button>
+        <button id="answersButton" class="small-grey-button">Answers</button>
+    </div>
+
+    <script>
+        document.getElementById('backButton').addEventListener('click', function() {
+            window.history.back();
+        });
+        // Event listener for the Answers button
+        document.getElementById('answersButton').addEventListener('click', function() {
+        window.location.href = 'CurveMCQAnswers.html'; 
+        });
+    </script>
+</body>
+</html>
